@@ -1,0 +1,14 @@
+# logback配置
+logging:
+  level:
+    root: info
+    org.springframework.security: debug
+  path: /var/logs
+  file: BookWorm.log
+
+amazon:
+  associateId: habuma-20
+
+spring:
+  profiles:
+    active: prod
